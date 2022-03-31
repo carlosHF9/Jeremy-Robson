@@ -28,7 +28,7 @@ function HoursComponent(category, hours, hoursLastWeek, index, backgroundSource)
                 <div class="content">
                     <div class="content__header">
                         <span>${category}</span>
-                        <img class="elilipsis-icon" src="../images/icon-ellipsis.svg" alt="... icon" />
+                        <img class="elilipsis-icon" src="./images/icon-ellipsis.svg" alt="... icon" />
                     </div>
                     <div class="content__info">
                         <h1>${hours} hrs</h1>
@@ -47,7 +47,7 @@ function UserComponent() {
     <div class="menu-card">
         <div class="user-info">
             <div class="user-info-content">
-                <img class="jemery-picture" src="../images/image-jeremy.png" alt="Jeremy picture"/>
+                <img class="jemery-picture" src="./images/image-jeremy.png" alt="Jeremy picture"/>
                 <div>
                     <span class="report">Reported by</span>
                     <h1 class="user-name">Jemery Robson</h1>
