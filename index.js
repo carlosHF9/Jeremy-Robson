@@ -73,7 +73,7 @@ let timeSetup = 'daily'
 
 function GetJson() {
 
-    return fetch('../data.json').then( res => res.json())
+    return fetch('./data.json').then( res => res.json())
 }
 
 
